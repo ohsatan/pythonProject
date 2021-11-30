@@ -1,0 +1,8 @@
+suggestion = input('enter the sentence: ')
+dictionary = {}
+for word in suggestion.split():
+    if word in dictionary:
+        dictionary[word] +=1
+    else:
+        dictionary[word] = 1
+print(dictionary)
